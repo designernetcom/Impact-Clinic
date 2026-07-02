@@ -16566,6 +16566,9 @@ button:focus {
 .logo-box img {
   width: 200px;
 }
+.main-menu ul li .submenu.about-submenu {
+  min-width: 260px;
+}
 .main-menu ul li .submenu.weight-submenu {
   min-width: 320px;
 }
