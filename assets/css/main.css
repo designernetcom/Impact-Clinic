@@ -3904,7 +3904,7 @@ button:focus {
     padding-top: 90px !important;
   }
   .md-pt-80 {
-    padding-top: 80px !important;
+    padding-top: 40px !important;
   }
   .md-pt-70 {
     padding-top: 70px !important;
@@ -16800,6 +16800,16 @@ button:focus {
 .offcanvas-logo {
   width: 140px;
 }
+.about-section-2 {
+  padding: 50px 0 0;
+}
+.services-section-1 {
+  padding: 90px 0 50px;
+}
+.header-sidebar {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .social-icon {
     margin-top: 30px;
@@ -16807,5 +16817,17 @@ button:focus {
   }
   .footer .footer-copyright .footer-copyright-wrap .copyright-text p {
     text-align: center;
+  }
+  .services-section-1 {
+    padding: 25px 0 15px;
+  }
+  .why-section {
+    padding: 45px 0;
+  }
+  .footer-1 .footer-top {
+    padding-top: 25px;
+  }
+  .header-sidebar {
+    display: block;
   }
 }
