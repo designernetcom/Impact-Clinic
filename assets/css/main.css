@@ -16803,7 +16803,7 @@ button:focus {
 
 .why-section .section-title h2 {
   text-align: center;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   color: white;
 }
 
@@ -16828,6 +16828,7 @@ button:focus {
 }
 .hero-section-2 .check-list-two-col ul li {
   color: var(--white-color);
+  font-size: 15px;
 }
 
 .hero-section-2 .check-list-two-col ul li {
@@ -17275,6 +17276,17 @@ textarea.form-control {
   .hero-section-2 .hero-items .hero-content .section-title .sub-title {
     width: 100%;
   }
+  .header-sidebar {
+    display: block;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .logo-box img {
+    width: 150px;
+  }
+  .main-menu ul li a {
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 768px) {
   .social-icon {
@@ -17293,9 +17305,7 @@ textarea.form-control {
   .footer-1 .footer-top {
     padding-top: 25px;
   }
-  .header-sidebar {
-    display: block;
-  }
+
   .section-title .sub-title {
     width: 100%;
   }
@@ -17833,11 +17843,23 @@ textarea.form-control {
   box-shadow: 0 12px 32px rgba(6, 51, 118, 0.3);
   color: #fff;
 }
+.videos {
+  margin-top: 30px;
+}
+.check-list-two-col ul li {
+  width: calc(100% - 15px);
+}
+.faq-section-1 {
+  margin-top: 60px;
+}
+.about-section-3 {
+  margin: 70px 0;
+}
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   .hero {
-    padding: 60px 0 80px;
+    padding: 40px 0 40px;
   }
   .sec-title {
     font-size: 1.6rem;
@@ -17854,6 +17876,18 @@ textarea.form-control {
   .cta-title {
     font-size: 1.5rem;
   }
+  .logo-box img {
+    width: 150px;
+  }
+  .footer-social-icon {
+    margin-top: 20px;
+  }
+  .about-section-3 {
+    margin: 0;
+  }
+  .breadcrumb-section h1 {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -17867,9 +17901,7 @@ textarea.form-control {
     padding: 28px 22px;
   }
 }
-.videos {
-  margin-top: 30px;
-}
+
 /* .micon-section .section-title {
   margin: auto;
   justify-content: center;
