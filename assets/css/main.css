@@ -5208,11 +5208,11 @@ button:focus {
   -o-transform: perspective(300px) scaleY(1) translateZ(0);
   transform: perspective(300px) scaleY(1) translateZ(0);
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .header .header-lower .header-content .header-right .header-button {
     display: none;
   }
-}
+} */
 @media (max-width: 1199px) {
   .header .header-lower .header-content .header-right .header-cart {
     display: none;
@@ -16581,7 +16581,7 @@ button:focus {
 } /*# sourceMappingURL=main.css.map */
 
 .logo-box img {
-  width: 200px;
+  width: 175px;
 }
 .main-menu ul li .submenu.about-submenu {
   min-width: 270px;
@@ -17279,7 +17279,11 @@ textarea.form-control {
   .header-sidebar {
     display: block;
   }
+  .header .header-lower .header-content .header-right .header-button {
+    display: none;
+  }
 }
+
 @media screen and (max-width: 1400px) {
   .logo-box img {
     width: 150px;
@@ -17890,6 +17894,11 @@ textarea.form-control {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1199px) {
+  .header .header-lower .header-content .header-right .header-button {
+    display: none;
+  }
+}
 @media (max-width: 576px) {
   .hero p {
     font-size: 0.98rem;
